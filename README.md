@@ -2,7 +2,8 @@
 Accepts a BibTeX .bib file on standard input and emits a valid HTML page with a list of books sorted by category on standard output.
 
 # usage
-From the command line, you can use `cat example.bib | ./bib-to-html.sh >example.html` or `./bib-to-html.sh <example.bib >example.html`.
+From the command line, you can use `cat example.bib | ./bib-to-html.sh >example.html` or
+`./bib-to-html.sh <example.bib >example.html`.
 
 # Notes
 This script relies on your adding two non-standard tags to your BibTeX file. Here is a sample entry:
