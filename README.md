@@ -1,7 +1,7 @@
 # bib-to-html
 Accepts a BibTeX .bib file on standard input and emits a valid HTML page with a list of books sorted by category on standard output.
 
-# usage
+# Usage
 From the command line, you can use `cat example.bib | ./bib-to-html.sh >example.html` or
 `./bib-to-html.sh <example.bib >example.html`.
 
@@ -19,3 +19,5 @@ This script relies on your adding two non-standard tags to your BibTeX file. Her
 ```
 The 'description' tag may be empty but it must be present. Currently the category tag must be present and non-empty.
 Tags may appear in any order.
+
+By default, the page will expect a CSS file in the same directory called "style.css." Each book entry and description have their own classes that can be styled.
